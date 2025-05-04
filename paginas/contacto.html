@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contacto</title>
+    <link rel="stylesheet" href="/CSS/portafolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Boldonse&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3f6677b901.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-general ">
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="brand">
+          <h2>F-O-o</h2>
+        </div>
+        <ul class="menu">
+          <li><a href="/index.html">inicio</a></li>
+          <li><a href="/paginas/proyectos.html">proyectos</a></li>
+          <li><a href="/paginas/sobre-mi.html">sobre mi</a></li>
+          <li><a href="/paginas/habilidades.html">habilidades</a></li>
+          <li><a class="active" href="#contacto">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+    <section class="contacto" id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes un proyecto o idea en mente? ¡Hablemos!</p>
+
+      <form class="formulario-contacto">
+        <div class="campo">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <label for="email">Correo electrónico</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="tucorreo@ejemplo.com"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="Escribe tu mensaje aquí..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+      </form>
+    </section>
+    </main>
+    <footer class="footer">
+      <div class="contenido-footer">
+      <div class="footer-left">
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+      </div>
+      <div class="footer-right">&copy; 2025 Fabian Ojeda Ocampo</div>
+      </div>
+    </footer>
+  </body>
+</html>
