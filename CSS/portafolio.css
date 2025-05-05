@@ -338,3 +338,14 @@ h2 {
 .footer a:hover {
   color: aqua;
 }
+
+@media (max-width: 600px) {
+  .container-general {
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    padding: 10px;
+  }
+}
